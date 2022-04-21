@@ -1,4 +1,4 @@
-function display_ct7() {
+function get_time() {
   var x = new Date();
   var ampm = x.getHours() >= 12 ? " PM" : " AM";
   hours = x.getHours() % 12;
@@ -17,10 +17,10 @@ function display_ct7() {
   var x1;
   x1 = hours + ":" + minutes + ":" + seconds + " " + ampm;
   document.getElementById("time").innerHTML = x1;
-  display_c7();
+  display_time();
 }
-function display_c7() {
+function display_time() {
   var refresh = 1000;
-  mytime = setTimeout("display_ct7()", refresh);
+  mytime = setTimeout("get_time()", refresh);
 }
-display_c7();
+display_time();
