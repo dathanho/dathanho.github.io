@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
+    <meta
+      name="description"
+      content="Dathan Ho's very basic GitHub site to mess around and have fun learning"
+    />
+    <title>Dathan's GitHub Site</title>
     <style>
       #site-name {
         color: #fff;
@@ -47,9 +51,16 @@
         color: #fff;
       }
 
+      .purpose-list {
+        color: #fff;
+        font-size: 20px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #fff;
+      }
+
       .portfolio {
-        padding: 5px 16px;
-        font-size: 24px;
+        padding: 10px 16px;
+        font-size: 20px;
         color: #fff;
         font-weight: bold;
       }
@@ -59,27 +70,35 @@
         color: #fff;
       }
 
-      .list {
-        color: #fff;
-        font-size: 20px;
-      }
-
       .stockapi {
-        padding: 5px 16px;
+        padding: 10px 16px;
         font-size: 20px;
         color: #fff;
         font-weight: bold;
       }
-      .rotary {
-        padding: 5px 16px;
+      .engineering-favorite {
+        padding: 10px 16px;
         font-size: 20px;
         color: #fff;
         font-weight: bold;
       }
-      .images {
+      .rotary-images {
         height: 300px;
         width: auto;
-        padding: 5px 16px;
+        padding: 0px 16px;
+        padding-bottom: 10px;
+      }
+      .nfts {
+        padding: 10px 16px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+      }
+      .nft-images {
+        height: 300px;
+        width: auto;
+        padding: 0px 16px;
+        padding-bottom: 10px;
       }
     </style>
   </head>
@@ -99,31 +118,43 @@
       </h1>
     </div>
 
-    <h2 class="purpose">What is the purpose of this website?</h2>
-    <ul class="list">
-      <li>just some html testing/practice</li>
-      <li>updates on portfolio</li>
-      <li>having lots of fun doing random things</li>
-    </ul>
+    <div id="purpose">
+      <h2 class="purpose">What is the purpose of this website?</h2>
+      <ul class="purpose-list">
+        <li>just some html testing/practice</li>
+        <li>updates on portfolio</li>
+        <li>having lots of fun doing random things</li>
+      </ul>
+    </div>
     <p class="portfolio">
-      Check out my current portfolio:
+      Here's the spreadsheet I use for planning out my investments:
       <a
         href="https://docs.google.com/spreadsheets/d/1lM0CQa-56O5_2z1edVXixLpbN9oGWYoi5CpJ7hKBI6Y/edit?usp=sharing"
         target="_blank"
-        >Spreadsheet</a
+        >Portfolio</a
       >
     </p>
     <p class="stockapi">
       Currently working on a python script for stock trading. I'll update the
       site with a link to the GitHub repository when I get it published.
     </p>
-    <p class="rotary">Literally my favorite piece of engineering:</p>
+    <p class="engineering-favorite">
+      Literally my favorite piece of engineering, the Mazda Wankel:
+    </p>
 
     <img
-      class="images"
-      src="./Wankel-rotary-engine-core-components.ppm.png"
+      class="rotary-images"
+      src="RotaryComponents.png"
       alt="Components of Rotary Engine"
     />
-    <img class="images" src="./Wankelcycle.gif" alt="GIF of working rotary" />
+    <img
+      class="rotary-images"
+      src="./RotaryCycle.gif"
+      alt="GIF of working rotary"
+    />
+    <p class="nfts">My totally amazing NFTs that made me absolutely nothing:</p>
+    <img class="nft-images" src="./Unicorn.png" alt="Stranded Unicorn NFT" />
+    <img class="nft-images" src="./SoldierNFT.png" alt="SXS Soldier NFT" />
+    <img class="nft-images" src="./SolvivorNFT.png" alt="SXS Solvivor NFT" />
   </body>
 </html>
