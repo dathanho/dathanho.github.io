@@ -1,0 +1,152 @@
+/* All pages */
+
+#site-name {
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 20px;
+  justify-content: space-between;
+  font-style: italic;
+}
+.nomobile {
+  font-size: 16px;
+}
+
+#topnav {
+  overflow: hidden;
+}
+
+#topnav a {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 16px 48px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #333;
+  position: relative;
+  top: 16px;
+  right: 20px;
+}
+#time {
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 16px 48px;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+#topnav a:hover {
+  background-color: #eee;
+  color: #000;
+}
+
+#topnav a.active {
+  background-color: #009966;
+  color: #fff;
+}
+
+/* index.html */
+
+.purpose {
+  padding: 5px 16px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.purpose-list {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #fff;
+}
+
+.rotary-images {
+  height: 300px;
+  width: auto;
+  padding: 0px 16px;
+  padding-bottom: 10px;
+}
+.nft-images {
+  height: 200px;
+  width: auto;
+  padding: 0px 16px;
+  padding-bottom: 10px;
+}
+.general-text {
+  padding: 10px 16px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.general-text a {
+  font-style: italic;
+  color: #fff;
+}
+
+/* about.html */
+
+.about-header {
+  color: #fff;
+  font-size: 32px;
+  padding: 5px 16px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-align: center;
+}
+
+div.scrollable-text p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  overflow-y: auto;
+  color: #fff;
+  text-indent: 5%;
+  padding-left: 16px;
+  padding-bottom: 32px;
+}
+.quote-header {
+  color: #fff;
+  font-size: 32px;
+  padding: 5px 16px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-align: center;
+}
+div.quotes li {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+
+/* social.html */
+
+.socials-header {
+  color: #fff;
+  font-size: 32px;
+  padding: 5px 16px;
+}
+.social-buttons {
+  font-size: 20px;
+  color: #fff;
+}
+
+.social-buttons a {
+  font-size: 30px;
+  padding: 5px 16px;
+  font-style: italic;
+  color: #fff;
+}
+
+.contact-header {
+  color: #fff;
+  font-size: 32px;
+  padding-top: 5px;
+  padding-left: 16px;
+}
+.contact li {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+}

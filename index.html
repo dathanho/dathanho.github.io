@@ -9,115 +9,7 @@
       content="Dathan Ho's very basic GitHub site to mess around and have fun learning"
     />
     <title>Dathan's GitHub Site</title>
-    <style>
-      #site-name {
-        color: #fff;
-        border-bottom: 1px solid #ddd;
-        padding: 16px 20px;
-        justify-content: space-between;
-        font-style: italic;
-      }
-      .nomobile {
-        font-size: 16px;
-      }
-
-      #topnav {
-        overflow: hidden;
-      }
-
-      #topnav a {
-        float: right;
-        color: #fff;
-        text-align: center;
-        padding: 16px 48px;
-        text-decoration: none;
-        font-size: 18px;
-        background-color: #333;
-        position: relative;
-        top: 16px;
-        right: 20px;
-      }
-      #time {
-        float: right;
-        color: #fff;
-        text-align: center;
-        padding: 16px 48px;
-        margin-right: 16px;
-        font-weight: bold;
-      }
-
-      #topnav a:hover {
-        background-color: #eee;
-        color: #000;
-      }
-
-      #topnav a.active {
-        background-color: #009966;
-        color: #fff;
-      }
-
-      .purpose {
-        padding: 5px 16px;
-        font-size: 32px;
-        color: #fff;
-      }
-
-      .purpose-list {
-        color: #fff;
-        font-size: 20px;
-        padding-bottom: 32px;
-        border-bottom: 1px solid #fff;
-      }
-
-      .portfolio {
-        padding: 10px 16px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: bold;
-      }
-
-      .portfolio a {
-        font-style: italic;
-        color: #fff;
-      }
-
-      .stockapi {
-        padding: 10px 16px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: bold;
-      }
-      .update{
-        padding: 10px 16px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: bold;
-      }
-      .engineering-favorite {
-        padding: 10px 16px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: bold;
-      }
-      .rotary-images {
-        height: 300px;
-        width: auto;
-        padding: 0px 16px;
-        padding-bottom: 10px;
-      }
-      .nfts {
-        padding: 10px 16px;
-        font-size: 20px;
-        color: #fff;
-        font-weight: bold;
-      }
-      .nft-images {
-        height: 200px;
-        width: auto;
-        padding: 0px 16px;
-        padding-bottom: 10px;
-      }
-    </style>
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
   <body style="background-color: #181818">
     <div id="topnav">
@@ -145,7 +37,7 @@
         <li>having lots of fun doing random things</li>
       </ul>
     </div>
-    <p class="portfolio">
+    <p class="general-text">
       Here's the spreadsheet I use for planning out my investments:
       <a
         href="https://docs.google.com/spreadsheets/d/1lM0CQa-56O5_2z1edVXixLpbN9oGWYoi5CpJ7hKBI6Y/edit?usp=sharing"
@@ -153,32 +45,47 @@
         >Portfolio</a
       >
     </p>
-    <p class="stockapi">
+    <p class="general-text">
       Currently working on a python script for stock trading. I'll update the
       site with a link to the GitHub repository when I get it published.
+      <em>(Project is currently delayed to a future time)</em>
     </p>
-    <p class="update">
-      Also working on enabling GPU passthrough for macOS virtual machine in Linux <em>(3am update)</em>
+    <p class="general-text">
+      Also working on enabling GPU passthrough for macOS virtual machine in
+      Linux <em>(3am update)</em>
     </p>
-    <p class="engineering-favorite">
+    <p class="general-text">
+      Constantly finding myself stressed this past year. Slowing down on some
+      projects to improve my mental health and well-being.
+    </p>
+    <p class="general-text">
       Literally my favorite piece of engineering, the Mazda Wankel:
     </p>
-
     <img
       class="rotary-images"
-      src="rotary_components.png"
+      src="images/rotary_components.png"
       alt="Components of Rotary Engine"
     />
     <img
       class="rotary-images"
-      src="./rotary_cycle.gif"
+      src="./images/rotary_cycle.gif"
       alt="GIF of working rotary"
     />
-    <p class="nfts">My totally amazing NFTs that made me absolutely nothing:</p>
-    <img class="nft-images" src="./unicorn.png" alt="Stranded Unicorn NFT" />
-    <img class="nft-images" src="./soldier.png" alt="SXS Soldier NFT" />
-    <img class="nft-images" src="./solvivor.png" alt="SXS Solvivor NFT" />
-    <img class="nft-images" src="./soldier2.png" alt="SXS Soldier NFT" />
+    <p class="general-text">
+      My totally amazing NFTs that made me absolutely nothing:
+    </p>
+    <img
+      class="nft-images"
+      src="./images/unicorn.png"
+      alt="Stranded Unicorn NFT"
+    />
+    <img class="nft-images" src="./images/soldier.png" alt="SXS Soldier NFT" />
+    <img
+      class="nft-images"
+      src="./images/solvivor.png"
+      alt="SXS Solvivor NFT"
+    />
+    <img class="nft-images" src="./images/soldier2.png" alt="SXS Soldier NFT" />
     <script src="./time.js"></script>
   </body>
 </html>
