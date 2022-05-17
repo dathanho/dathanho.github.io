@@ -1,6 +1,10 @@
-/* All pages */
+/* All pages | General properties for the whole website*/
 
-#site-name {
+.body {
+  background-color: #181818;
+}
+
+.site-name {
   color: #fff;
   border-bottom: 1px solid #ddd;
   padding: 16px 20px;
@@ -27,14 +31,6 @@
   top: 16px;
   right: 20px;
 }
-#time {
-  float: right;
-  color: #fff;
-  text-align: center;
-  padding: 16px 48px;
-  margin-right: 16px;
-  font-weight: bold;
-}
 
 #topnav a:hover {
   background-color: #eee;
@@ -46,15 +42,24 @@
   color: #fff;
 }
 
-/* index.html */
-
-.purpose {
-  padding: 5px 16px;
-  font-size: 32px;
+#time {
+  float: right;
   color: #fff;
+  text-align: center;
+  padding: 16px 48px;
+  margin-right: 16px;
+  font-weight: bold;
 }
 
-.purpose-list {
+.headers {
+  padding-left: 16px;
+  color: #fff;
+  font-size: 32px;
+}
+
+/* index.html | Styling for main page */
+
+#purpose ul {
   color: #fff;
   font-size: 20px;
   padding-bottom: 32px;
@@ -62,7 +67,7 @@
 }
 
 .rotary-images {
-  height: 300px;
+  height: 400px;
   width: auto;
   padding: 0px 16px;
   padding-bottom: 10px;
@@ -74,79 +79,61 @@
   padding-bottom: 10px;
 }
 .general-text {
+  color: #fff;
   padding: 10px 16px;
   font-size: 20px;
-  color: #fff;
-  font-weight: bold;
 }
 .general-text a {
+  color: #fff;
+  font-style: italic;
+}
+
+/* social.html | Styling for socials page */
+
+#my-socials li {
+  font-size: 20px;
+  color: #fff;
+}
+
+#my-socials a {
+  padding: 5px 16px;
+  font-size: 30px;
   font-style: italic;
   color: #fff;
 }
 
-/* about.html */
-
-.about-header {
+#contact li {
+  padding: 5px 16px;
   color: #fff;
-  font-size: 32px;
+  font-size: 20px;
+}
+
+/* about.html | Styling for about page */
+
+#about h2 {
   padding: 5px 16px;
   text-decoration: underline;
   text-underline-offset: 2px;
   text-align: center;
 }
 
-div.scrollable-text p {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+#quote, #about-me {
+  max-width: 1280px;
+}
+
+#about-me p {
   overflow-y: auto;
-  color: #fff;
-  text-indent: 5%;
   padding-left: 16px;
   padding-bottom: 32px;
-}
-.quote-header {
   color: #fff;
-  font-size: 32px;
-  padding: 5px 16px;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-align: center;
-}
-div.quotes li {
+  color: #fff;
+  text-indent: 5%;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: #fff;
-  padding-left: 16px;
-  padding-bottom: 10px;
 }
 
-/* social.html */
-
-.socials-header {
-  color: #fff;
-  font-size: 32px;
+#quote li {
   padding: 5px 16px;
-}
-.social-buttons {
-  font-size: 20px;
-  color: #fff;
-}
-
-.social-buttons a {
-  font-size: 30px;
-  padding: 5px 16px;
-  font-style: italic;
-  color: #fff;
-}
-
-.contact-header {
-  color: #fff;
-  font-size: 32px;
-  padding-top: 5px;
-  padding-left: 16px;
-}
-.contact li {
   color: #fff;
   font-size: 20px;
-  padding-left: 16px;
-  padding-bottom: 10px;
 }

@@ -11,7 +11,10 @@
     <title>Inside Dathan's Strange Mind</title>
     <link href="./stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
-  <body style="background-color: #181818">
+
+  <!-- This is the start of the HTML code for the webpage -->
+
+  <body id="about" class="body">
     <div id="topnav">
       <a
         class="repository"
@@ -23,14 +26,16 @@
       <a class="socials" href="./socials.html">Socials</a>
       <a class="home" href="./index.html">Home</a>
       <p><span id="time"></span></p>
-      <h1 id="site-name">
+      <h1 class="site-name">
         Dathan's very odd website
         <span class="nomobile">(not designed for mobile sadly enough)</span>
       </h1>
     </div>
 
-    <div class="scrollable-text" style="max-width: 1280px">
-      <h2 class="about-header">A little paragraph I wrote</h2>
+    <!-- This is the start of the about me section -->
+
+    <div id="about-me">
+      <h2 class="headers">A little paragraph I wrote</h2>
       <p>
         I break things to fix them and I fix things to break them. I learn cause
         it's fun and I'm smart because um... I said so. I live by the second
@@ -44,8 +49,11 @@
         question what I put in it because I myself don't know.
       </p>
     </div>
-    <div class="quotes" style="max-width: 1280px">
-      <h2 class="quote-header">Some of my favorite quotes</h2>
+
+  <!-- This is the start of the quote section -->
+
+    <div id="quote">
+      <h2 class="headers">Some of my favorite quotes</h2>
       <ul>
         <li>
           <em>
@@ -103,6 +111,8 @@
           O'Leary
         </li>
     </div>
-    <script src="./time.js"></script>
+    <script src="./time.js">
+    // Link to displaying time in webpage 
+    </script> 
   </body>
 </html>

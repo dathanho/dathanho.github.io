@@ -10,9 +10,11 @@
     />
     <title>How To Creepily Stalk Me</title>
     <link href="./stylesheet.css" rel="stylesheet" type="text/css" />
-    <style></style>
   </head>
-  <body style="background-color: #181818">
+
+  <!-- This is the start of the HTML code for the webpage -->
+
+  <body id="socials" class="body">
     <div id="topnav">
       <a
         class="repository"
@@ -24,27 +26,39 @@
       <a class="active socials" href="./socials.html">Socials</a>
       <a class="home" href="./index.html">Home</a>
       <p><span id="time"></span></p>
-      <h1 id="site-name">
+      <h1 class="site-name">
         Dathan's very odd website
         <span class="nomobile">(not designed for mobile sadly enough)</span>
       </h1>
     </div>
-    <h2 class="socials-header">Follow me for more updates:</h2>
-    <ul class="social-buttons">
-      <li>
-        <a href="https://twitter.com/dathanho_inv" target="_blank">Twitter</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/dathanho.inv/" target="_blank"
-          >Instagram</a
-        >
-      </li>
-    </ul>
-    <h2 class="contact-header">Here's how to reach me:</h2>
-    <ul class="contact">
-      <li>Discord - dathan#1690</li>
-      <li>Email - dathanph08@gmail.com</li>
-    </ul>
-    <script src="./time.js"></script>
+
+    <!-- This is the start of the socials section -->
+
+    <div id="my-socials">
+      <h2 class="headers">Follow me for more updates:</h2>
+      <ul>
+        <li>
+          <a href="https://twitter.com/dathanho_inv" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dathanho.inv/" target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- This is the start of the contact section -->
+
+    <div id="contact">
+      <h2 class="headers">Here's how to reach me:</h2>
+      <ul>
+        <li>Discord - dathan#1690</li>
+        <li>Email - dathanph08@gmail.com</li>
+      </ul>
+    </div>
+    <script src="./time.js">
+      // Link to displaying time in webpage
+    </script>
   </body>
 </html>

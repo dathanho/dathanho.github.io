@@ -11,7 +11,10 @@
     <title>Dathan's GitHub Site</title>
     <link href="./stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
-  <body style="background-color: #181818">
+
+  <!-- This is the start of the HTML code for the webpage -->
+
+  <body id="index" class="body">
     <div id="topnav">
       <a
         class="repository"
@@ -23,43 +26,57 @@
       <a class="socials" href="./socials.html">Socials</a>
       <a class="active home" href="./index.html">Home</a>
       <p><span id="time"></span></p>
-      <h1 id="site-name">
+      <h1 class="site-name">
         Dathan's very odd website
         <span class="nomobile">(not designed for mobile sadly enough)</span>
       </h1>
     </div>
 
     <div id="purpose">
-      <h2 class="purpose">What is the purpose of this website?</h2>
-      <ul class="purpose-list">
+      <h2 class="headers">What is the purpose of this website?</h2>
+      <ul>
         <li>just some html testing/practice</li>
         <li>updates on what i'm doing</li>
         <li>having lots of fun doing random things</li>
       </ul>
     </div>
+
+    <!-- This is the start of the updates sections -->
+
+    <h2 class="headers updates">
+      Here are some updates and links to other resources:
+    </h2>
+    <ul>
+      <li class="general-text">
+        This is the spreadsheet I use for planning out my investments:
+        <a
+          href="https://docs.google.com/spreadsheets/d/1lM0CQa-56O5_2z1edVXixLpbN9oGWYoi5CpJ7hKBI6Y/edit?usp=sharing"
+          target="_blank"
+          >Portfolio</a
+        >
+      </li>
+      <li class="general-text">
+        Currently working on a python script for stock trading. I'll update the
+        site with a link to the GitHub repository when I get it published.
+        <em>(This project is currently being delayed)</em>
+      </li>
+      <li class="general-text">
+        Also working on enabling GPU passthrough for macOS virtual machine in
+        Linux <em>(3am update)</em>
+      </li>
+      <li class="general-text">
+        Constantly finding myself extremely stressed this past year. Slowing
+        down on some projects to improve my mental health and well-being.
+        <em>(Highly recommeded for anyone else feeling the same)</em>
+      </li>
+    </ul>
+
+    <!-- This is the start of the rotary section -->
+
     <p class="general-text">
-      Here's the spreadsheet I use for planning out my investments:
-      <a
-        href="https://docs.google.com/spreadsheets/d/1lM0CQa-56O5_2z1edVXixLpbN9oGWYoi5CpJ7hKBI6Y/edit?usp=sharing"
-        target="_blank"
-        >Portfolio</a
+      <strong
+        >Literally my favorite piece of engineering, the Mazda Wankel:</strong
       >
-    </p>
-    <p class="general-text">
-      Currently working on a python script for stock trading. I'll update the
-      site with a link to the GitHub repository when I get it published.
-      <em>(Project is currently delayed to a future time)</em>
-    </p>
-    <p class="general-text">
-      Also working on enabling GPU passthrough for macOS virtual machine in
-      Linux <em>(3am update)</em>
-    </p>
-    <p class="general-text">
-      Constantly finding myself stressed this past year. Slowing down on some
-      projects to improve my mental health and well-being.
-    </p>
-    <p class="general-text">
-      Literally my favorite piece of engineering, the Mazda Wankel:
     </p>
     <img
       class="rotary-images"
@@ -71,14 +88,14 @@
       src="./images/rotary_cycle.gif"
       alt="GIF of working rotary"
     />
+
+    <!-- This is the start of the NFT section -->
+
     <p class="general-text">
-      My totally amazing NFTs that made me absolutely nothing:
+      <strong
+        >My totally amazing NFTs that continue to make me lose money:</strong
+      >
     </p>
-    <img
-      class="nft-images"
-      src="./images/unicorn.png"
-      alt="Stranded Unicorn NFT"
-    />
     <img class="nft-images" src="./images/soldier.png" alt="SXS Soldier NFT" />
     <img
       class="nft-images"
@@ -86,6 +103,8 @@
       alt="SXS Solvivor NFT"
     />
     <img class="nft-images" src="./images/soldier2.png" alt="SXS Soldier NFT" />
-    <script src="./time.js"></script>
+    <script src="./time.js">
+      // Link to displaying time in webpage
+    </script>
   </body>
 </html>

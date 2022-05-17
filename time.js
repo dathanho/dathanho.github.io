@@ -1,3 +1,5 @@
+// Code to display time in webpage
+
 function get_time() {
   var x = new Date();
   var ampm = x.getHours() >= 12 ? " PM" : " AM";
